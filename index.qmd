@@ -1,5 +1,4 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+iSEE is a Bioconductor package designed to create interactive web-applications for exploring biological assays.
+This book covers essential knowledge for users interacting with the graphical user interface, developers of web-applications using iSEE to showcase data sets, and developers of extensions contributing new functinality to the iSEE ecosystem.

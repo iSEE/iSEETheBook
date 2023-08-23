@@ -1,5 +1,11 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+This book compiles essential knowledge about the Bioconductor package iSEE.
 
-See @knuth84 for additional discussion of literate programming.
+See @isee_2018 for the original publication.
+
+This book caters for three major categories of users:
+
+- Users interacting with the graphical user interface.
+- Developers of web-applications using iSEE to showcase data sets
+- Developers of extensions contributing new functinality to the iSEE ecosystem.
