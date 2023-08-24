@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "iSEETheBook",
+    "section": "",
+    "text": "Preface\niSEE is a Bioconductor package designed to create interactive web-applications for exploring biological assays. This book covers essential knowledge for users interacting with the graphical user interface, developers of web-applications using iSEE to showcase data sets, and developers of extensions contributing new functinality to the iSEE ecosystem."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This book compiles essential knowledge about the Bioconductor package iSEE.\nSee Rue-Albrecht et al. (2018) for the original publication.\nThis book caters for three major categories of users:\n\nUsers interacting with the graphical user interface.\nDevelopers of web-applications using iSEE to showcase data sets\nDevelopers of extensions contributing new functinality to the iSEE ecosystem.\n\n\n\n\n\nRue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L. Lun. 2018. “ISEE: Interactive Summarizedexperiment Explorer.” F1000Research 7: 741. https://doi.org/10.12688/f1000research.14966.1."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Rue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L.\nLun. 2018. “ISEE: Interactive Summarizedexperiment\nExplorer.” F1000Research 7: 741. https://doi.org/10.12688/f1000research.14966.1."
+  }
+]
