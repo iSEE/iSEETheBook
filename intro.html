@@ -20,26 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -163,21 +144,12 @@ div.csl-indent {
 
 </header>
 
-<p>This book compiles essential knowledge about the Bioconductor package iSEE.</p>
-<p>See <span class="citation" data-cites="isee_2018">Rue-Albrecht et al. (<a href="references.html#ref-isee_2018" role="doc-biblioref">2018</a>)</span> for the original publication.</p>
-<p>This book caters for three major categories of users:</p>
-<ul>
-<li>Users interacting with the graphical user interface.</li>
-<li>Developers of web-applications using iSEE to showcase data sets</li>
-<li>Developers of extensions contributing new functinality to the iSEE ecosystem.</li>
-</ul>
+<p><em>iSEE</em> is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays.</p>
+<p>Initiated with single-cell RNA-sequencing in mind (in 2017), <em>iSEE</em> was designed in such a way that it naturally handles any biological assay that can be stored in a rectangular matrix of features (in rows) and samples (in columns).</p>
+<p>What makes <em>iSEE</em> stand out from other interactive web-application is its focus on the <em>SummarizedExperiment</em> class, a data structure is widely used throughout the Bioconductor project, from bulk to single-cell experiments.</p>
+<p>The well-defined and stable <em>SummarizedExperiment</em> data structure makes it easy for <em>iSEE</em> to automatically detect information commonly stored in dedicated components of <em>SummarizedExperiment</em> objects and display that information in a range of interactive panels, including tables and plots.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
-<div id="ref-isee_2018" class="csl-entry" role="listitem">
-Rue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L. Lun. 2018. <span>“ISEE: Interactive Summarizedexperiment Explorer.”</span> <em>F1000Research</em> 7: 741. <a href="https://doi.org/10.12688/f1000research.14966.1">https://doi.org/10.12688/f1000research.14966.1</a>.
-</div>
-</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

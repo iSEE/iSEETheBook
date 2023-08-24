@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "iSEETheBook",
     "section": "",
-    "text": "Preface\niSEE is a Bioconductor package designed to create interactive web-applications for exploring biological assays. This book covers essential knowledge for users interacting with the graphical user interface, developers of web-applications using iSEE to showcase data sets, and developers of extensions contributing new functinality to the iSEE ecosystem."
+    "text": "Preface\nThis book compiles essential knowledge about iSEE, an R package released through the Bioconductor project.\nSee Rue-Albrecht et al. (2018) for the original publication.\nThis book covers essential knowledge for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\n\n\n\n\nRue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L. Lun. 2018. “ISEE: Interactive Summarizedexperiment Explorer.” F1000Research 7: 741. https://doi.org/10.12688/f1000research.14966.1."
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This book compiles essential knowledge about the Bioconductor package iSEE.\nSee Rue-Albrecht et al. (2018) for the original publication.\nThis book caters for three major categories of users:\n\nUsers interacting with the graphical user interface.\nDevelopers of web-applications using iSEE to showcase data sets\nDevelopers of extensions contributing new functinality to the iSEE ecosystem.\n\n\n\n\n\nRue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L. Lun. 2018. “ISEE: Interactive Summarizedexperiment Explorer.” F1000Research 7: 741. https://doi.org/10.12688/f1000research.14966.1."
+    "text": "iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays.\nInitiated with single-cell RNA-sequencing in mind (in 2017), iSEE was designed in such a way that it naturally handles any biological assay that can be stored in a rectangular matrix of features (in rows) and samples (in columns).\nWhat makes iSEE stand out from other interactive web-application is its focus on the SummarizedExperiment class, a data structure is widely used throughout the Bioconductor project, from bulk to single-cell experiments.\nThe well-defined and stable SummarizedExperiment data structure makes it easy for iSEE to automatically detect information commonly stored in dedicated components of SummarizedExperiment objects and display that information in a range of interactive panels, including tables and plots."
   },
   {
     "objectID": "references.html",

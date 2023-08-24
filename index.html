@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -165,9 +184,21 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>iSEE is a Bioconductor package designed to create interactive web-applications for exploring biological assays. This book covers essential knowledge for users interacting with the graphical user interface, developers of web-applications using iSEE to showcase data sets, and developers of extensions contributing new functinality to the iSEE ecosystem.</p>
+<p>This book compiles essential knowledge about <em>iSEE</em>, an R package released through the Bioconductor project.</p>
+<p>See <span class="citation" data-cites="isee_2018">Rue-Albrecht et al. (<a href="references.html#ref-isee_2018" role="doc-biblioref">2018</a>)</span> for the original publication.</p>
+<p>This book covers essential knowledge for three main groups of users:</p>
+<ul>
+<li>End users interacting with the graphical user interface in their web browser.</li>
+<li>Developers of scripted web-applications using iSEE to showcase data sets.</li>
+<li>Developers of extensions contributing new functionality and packages to the iSEE ecosystem.</li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-isee_2018" class="csl-entry" role="listitem">
+Rue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L. Lun. 2018. <span>“ISEE: Interactive Summarizedexperiment Explorer.”</span> <em>F1000Research</em> 7: 741. <a href="https://doi.org/10.12688/f1000research.14966.1">https://doi.org/10.12688/f1000research.14966.1</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
