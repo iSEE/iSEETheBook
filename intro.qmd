@@ -1,11 +1,9 @@
 # Introduction
 
-This book compiles essential knowledge about the Bioconductor package iSEE.
+*iSEE* is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays.
 
-See @isee_2018 for the original publication.
+Initiated with single-cell RNA-sequencing in mind (in 2017), *iSEE* was designed in such a way that it naturally handles any biological assay that can be stored in a rectangular matrix of features (in rows) and samples (in columns).
 
-This book caters for three major categories of users:
+What makes *iSEE* stand out from other interactive web-application is its focus on the *SummarizedExperiment* class, a data structure is widely used throughout the Bioconductor project, from bulk to single-cell experiments.
 
-- Users interacting with the graphical user interface.
-- Developers of web-applications using iSEE to showcase data sets
-- Developers of extensions contributing new functinality to the iSEE ecosystem.
+The well-defined and stable *SummarizedExperiment* data structure makes it easy for *iSEE* to automatically detect information commonly stored in dedicated components of *SummarizedExperiment* objects and display that information in a range of interactive panels, including tables and plots.
