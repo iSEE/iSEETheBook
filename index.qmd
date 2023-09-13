@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-This book compiles essential knowledge about *iSEE*, an R package released through the Bioconductor project.
+This book compiles essential knowledge about [*iSEE*][bioc-isee], an R package released through the Bioconductor project.
 
 See @isee_2018 for the original publication.
 
@@ -9,3 +9,5 @@ This book covers essential knowledge for three main groups of users:
 - End users interacting with the graphical user interface in their web browser.
 - Developers of scripted web-applications using iSEE to showcase data sets.
 - Developers of extensions contributing new functionality and packages to the iSEE ecosystem.
+
+[bioc-isee]: https://bioconductor.org/packages/iSEE/
