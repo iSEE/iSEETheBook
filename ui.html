@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Kevin Rue-Albrecht">
-<meta name="dcterms.date" content="2023-08-23">
 
-<title>iSEETheBook</title>
+<title>iSEETheBook - 2&nbsp; The user interface</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,26 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -51,7 +30,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
+<link href="./references.html" rel="next">
+<link href="./intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -93,7 +73,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ui.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The user interface</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -120,7 +100,7 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
@@ -132,7 +112,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ui.html" class="sidebar-item-text sidebar-link">
+  <a href="./ui.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The user interface</span></span></a>
   </div>
 </li>
@@ -148,39 +128,21 @@ div.csl-indent {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">iSEETheBook</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The user interface</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Kevin Rue-Albrecht </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 23, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -188,24 +150,88 @@ div.csl-indent {
 
 </header>
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This book compiles essential knowledge about <a href="https://bioconductor.org/packages/iSEE/"><em>iSEE</em></a>, an R package released through the Bioconductor project.</p>
-<p>This book covers essential knowledge for three main groups of users:</p>
-<ul>
-<li>End users interacting with the graphical user interface in their web browser.</li>
-<li>Developers of scripted web-applications using iSEE to showcase data sets.</li>
-<li>Developers of extensions contributing new functionality and packages to the iSEE ecosystem.</li>
-</ul>
-<p>See <span class="citation" data-cites="isee_2018">Rue-Albrecht et al. (<a href="references.html#ref-isee_2018" role="doc-biblioref">2018</a>)</span> for the original publication.</p>
-
-
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
-<div id="ref-isee_2018" class="csl-entry" role="listitem">
-Rue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L. Lun. 2018. <span>“ISEE: Interactive Summarizedexperiment Explorer.”</span> <em>F1000Research</em> 7: 741. <a href="https://doi.org/10.12688/f1000research.14966.1">https://doi.org/10.12688/f1000research.14966.1</a>.
+<p>In this chapter, we describe the contents and layout of a standard <em>iSEE</em> app.</p>
+<p>Specifically, we focus on the appearance of the interactive point-and-click interface presented to end-users who come to simply explore the data set without any programming knowledge required.</p>
+<p>Illustrative screenshots are taken from the <em>iSEE</em> app produced by the example code given in the help page of the <code>iSEE()</code> function, which can be access from an <em>R</em> console by typing either <code>help(iSEE)</code> or <code>?iSEE</code>.</p>
+<p>Under entirely default settings, data sets loaded into the <em>iSEE</em> app are automatically parsed for standard information stored in <em>SummarizedExperiment</em> objects. Based on the information available and a set of eight core panel types designed to display different pieces of information, the <code>iSEE()</code> function automatically populates the interface with one panel of each type for which the relevant information is available.</p>
+<p>The example code given in the help page of the <code>iSEE()</code> function produces an <em>iSEE</em> app that showcases all eight core panel types:</p>
+<div id="fig-elephants" class="quarto-layout-panel">
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 33.3%;justify-content: center;">
+<div id="fig-ReducedDimensionPlot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figures/ReducedDimensionPlot.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<figcaption class="figure-caption">(a) Reduced dimension plot</figcaption>
+</figure>
 </div>
 </div>
-</section>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 33.3%;justify-content: center;">
+<div id="fig-RowDataTable" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figures/RowDataTable.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<figcaption class="figure-caption">(b) Row data table</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 33.3%;justify-content: center;">
+<div id="fig-FeatureAssayPlot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figures/FeatureAssayPlot.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<figcaption class="figure-caption">(c) Feature assay plot</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 33.3%;justify-content: center;">
+<div id="fig-ColumnDataPlot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figures/ColumnDataPlot.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<figcaption class="figure-caption">(d) Column data plot</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 33.3%;justify-content: center;">
+<div id="fig-RowDataPlot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figures/RowDataPlot.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<figcaption class="figure-caption">(e) Row data plot</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 33.3%;justify-content: center;">
+<div id="fig-SampleAssayPlot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figures/SampleAssayPlot.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<figcaption class="figure-caption">(f) Sample assay plot</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 33.3%;justify-content: center;">
+<div id="fig-ColumnDataTable" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figures/ColumnDataTable.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<figcaption class="figure-caption">(g) Column data table</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 33.3%;justify-content: center;">
+<div id="fig-ComplexHeatmapPlotlumnDataPlot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figures/ComplexHeatmapPlot.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<figcaption class="figure-caption">(h) Complex heatmap plot</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2.1: Core panel types in the <a href="https://bioconductor.org/packages/iSEE/"><em>iSEE</em></a> package.</figcaption><p></p>
+</figure>
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -443,10 +469,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./intro.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
