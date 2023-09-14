@@ -8,8 +8,9 @@ Initiated in 2017 with single-cell RNA-sequencing in mind, *iSEE* was designed i
 
 What makes *iSEE* stand out from other interactive web-application is its focus on the *SummarizedExperiment* class (@fig-SummarizedExperiment), a data structure is widely used throughout the Bioconductor project, from bulk to single-cell experiments.
 
+![Schematic representation of the SummarizedExperiment class (reproduced from the vignette of the [*SummarizedExperiment*][bioc-summarizedexperiment] package).](figures/SummarizedExperiment.svg){#fig-SummarizedExperiment}
+
 The well-defined and stable *SummarizedExperiment* data structure makes it easy for *iSEE* to automatically detect information commonly stored in dedicated components of *SummarizedExperiment* objects and display that information in a range of interactive panels, including tables and plots.
 
-![Schematic representation of the SummarizedExperiment class (reproduced from the vignette of the [*SummarizedExperiment*][bioc-summarizedexperiment] package).](figures/SummarizedExperiment.svg){#fig-SummarizedExperiment}
 
 [bioc-summarizedexperiment]: https://bioconductor.org/packages/SummarizedExperiment/
