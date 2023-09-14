@@ -52,8 +52,14 @@ Scroll up and down the interface, to bring panels in view.
 
 Click on the header of collapsible boxes located under the panel output, to reveal interactive elements controlling the contents displayed in each panel.
 
-![Expand and collapse containers of interactive user inputs.](figures/action-collapsible-box.gif){#fig-collapsible-box}
+![Expanding collapsible boxes.](figures/action-collapsible-box.gif){#fig-collapsible-box}
 
+### Selection inputs
+
+Click on dropdown elements to reveal their choices.
+Click a different choice to see the panel output change accordingly.
+
+![Changing the selected choice in dropdown menus.](figures/action-selection-input.gif){#fig-selectinput}
 
 
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
