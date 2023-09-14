@@ -38,4 +38,22 @@ Core panel types in the [*iSEE*][bioc-isee] package, in their default configurat
 Each core panel type is designed to display a different piece of information stored in the object.
 The purpose of each panel will be discussed in a separate chapter.
 
+## Actions
+
+Once the panels are loaded into the interface, users are free to interact with the interface in any way they see fit.
+
+### Scrolling
+
+Scroll up and down the interface, to bring panels in view.
+
+![Scrolling up and down the app interface.](figures/action-scroll.gif){#fig-scrolling}
+
+### Collabsible boxes
+
+Click on the header of collapsible boxes located under the panel output, to reveal interactive elements controlling the contents displayed in each panel.
+
+![Expand and collapse containers of interactive user inputs.](figures/action-collapsible-box.gif){#fig-collapsible-box}
+
+
+
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
