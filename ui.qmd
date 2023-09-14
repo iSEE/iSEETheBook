@@ -1,0 +1,36 @@
+# The user interface
+
+In this chapter, we describe the contents and layout of a standard *iSEE* app.
+
+Specifically, we focus on the appearance of the interactive point-and-click interface presented to end-users who come to simply explore the data set without any programming knowledge required.
+
+Illustrative screenshots are taken from the *iSEE* app produced by the example code given in the help page of the `iSEE()` function,
+which can be access from an *R* console by typing either `help(iSEE)` or `?iSEE`.
+
+Under entirely default settings, data sets loaded into the *iSEE* app are automatically parsed for standard information stored in *SummarizedExperiment* objects.
+Based on the information available and a set of eight core panel types designed to display different pieces of information, the `iSEE()` function automatically populates the interface with one panel of each type for which the relevant information is available.
+
+The example code given in the help page of the `iSEE()` function produces an *iSEE* app that showcases all eight core panel types:
+
+::: {#fig-elephants layout-ncol=3}
+
+![Reduced dimension plot](figures/ReducedDimensionPlot.png){#fig-ReducedDimensionPlot}
+
+![Row data table](figures/RowDataTable.png){#fig-RowDataTable}
+
+![Feature assay plot](figures/FeatureAssayPlot.png){#fig-FeatureAssayPlot}
+
+![Column data plot](figures/ColumnDataPlot.png){#fig-ColumnDataPlot}
+
+![Row data plot](figures/RowDataPlot.png){#fig-RowDataPlot}
+
+![Sample assay plot](figures/SampleAssayPlot.png){#fig-SampleAssayPlot}
+
+![Column data table](figures/ColumnDataTable.png){#fig-ColumnDataTable}
+
+![Complex heatmap plot](figures/ComplexHeatmapPlot.png){#fig-ComplexHeatmapPlotlumnDataPlot}
+
+Core panel types in the [*iSEE*][bioc-isee] package.
+:::
+
+[bioc-isee]: https://bioconductor.org/packages/iSEE/
