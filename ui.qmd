@@ -10,6 +10,8 @@ which can be access from an *R* console by typing either `help(iSEE)` or `?iSEE`
 Under entirely default settings, data sets loaded into the *iSEE* app are automatically parsed for standard information stored in *SummarizedExperiment* objects.
 Based on the information available and a set of eight core panel types designed to display different pieces of information, the `iSEE()` function automatically populates the interface with one panel of each type for which the relevant information is available.
 
+![First row of panel in the iSEE app interface, for an example data set.](figures/iSEE.png){#fig-iSEE}
+
 The example code given in the help page of the `iSEE()` function produces an *iSEE* app that showcases all eight core panel types:
 
 ::: {#fig-elephants layout-ncol=3}
@@ -30,7 +32,10 @@ The example code given in the help page of the `iSEE()` function produces an *iS
 
 ![Complex heatmap plot](figures/ComplexHeatmapPlot.png){#fig-ComplexHeatmapPlotlumnDataPlot}
 
-Core panel types in the [*iSEE*][bioc-isee] package.
+Core panel types in the [*iSEE*][bioc-isee] package, in their default configuration.
 :::
+
+Each core panel type is designed to display a different piece of information stored in the object.
+The purpose of each panel will be discussed in a separate chapter.
 
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
