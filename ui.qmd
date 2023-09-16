@@ -91,6 +91,6 @@ That is typically, the color, shape, size, and opacity of data points.
 It may also include the possibility of faceting the plot by discrete variables along each axis,
 and further customisation of non-data elements of the plot such as axis labels and the plot legend.
 
-![The *Visual parameters* box of the *Reduced dimension plot* panel, expanded to reveal the 'Color', 'Shape', 'Size', and 'Facet' sections of its contents.](figures/visual-parameters-reduced-dimension-plot.png){#fig-visual-param-box-reddimplot width=400}
+![The *Visual parameters* box of the *Reduced dimension plot* panel, expanded and configured to reveal the 'Color', 'Shape', 'Size', and 'Facet' sections of its contents.](figures/visual-parameters-reduced-dimension-plot.png){#fig-visual-param-box-reddimplot width=400}
 
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
