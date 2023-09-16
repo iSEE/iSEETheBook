@@ -75,10 +75,12 @@ Click on checkboxes to toggle any number of mutually-compatible parameters.
 
 ### Data parameters
 
-The *Data parameters* collapsible box contains interactive elements that control aspects specific to each panel type.
+The *Data parameters* collapsible box contains interactive elements that control the nature of the observations displayed in each panel.
 
-For plots, that would typically be the choice of variables shown along each axis.
+For plots, that is typically the choice of variables shown along each axis.
 
-For tables, that would typically be the subset of columns displayed in the panel.
+For tables, that is typically the subset of columns *hidden* in the panel.
+
+![The *Data parameters* box of the *Reduced dimension plot* panel, expanded to reveal its contents.](figures/data-parameters-reduced-dimension-plot.png){#fig-data-param-box-reddimplot}
 
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
