@@ -1,11 +1,15 @@
 # The user interface
 
+## Overview
+
 In this chapter, we describe the contents and layout of a standard *iSEE* app.
 
 Specifically, we focus on the appearance of the interactive point-and-click interface presented to end-users who come to simply explore the data set without any programming knowledge required.
 
 Illustrative screenshots are taken from the *iSEE* app produced by the example code given in the help page of the `iSEE()` function,
 which can be access from an *R* console by typing either `help(iSEE)` or `?iSEE`.
+
+## Panels
 
 Under entirely default settings, data sets loaded into the *iSEE* app are automatically parsed for standard information stored in *SummarizedExperiment* objects.
 Based on the information available and a set of eight core panel types designed to display different pieces of information, the `iSEE()` function automatically populates the interface with one panel of each type for which the relevant information is available.
@@ -44,13 +48,13 @@ Once the panels are loaded into the interface, users are free to interact with t
 
 ### Scrolling
 
-Scroll up and down the interface, to bring panels in view.
+Use the mouse wheel, trackpad, or directional arrows (up and down), to scroll up and down the interface, to bring panels into view.
 
 ![Scrolling up and down the app interface.](figures/action-scroll.gif){#fig-scrolling}
 
 ### Collabsible boxes
 
-Click on the header of collapsible boxes located under the panel output, to reveal interactive elements controlling the contents displayed in each panel.
+Click on the header of collapsible boxes located under the panel output, to reveal interactive elements controlling various aspects of the contents displayed in each panel.
 
 ![Expanding collapsible boxes.](figures/action-collapsible-box.gif){#fig-collapsible-box}
 
@@ -61,5 +65,20 @@ Click a different choice to see the panel output change accordingly.
 
 ![Changing the selected choice in dropdown menus.](figures/action-selection-input.gif){#fig-selectinput}
 
+### Checkboxes
+
+Click on checkboxes to toggle any number of mutually-compatible parameters.
+
+![Toggling checkboxes.](figures/action-checkboxes.gif){#fig-checboxes}
+
+## Collapsible boxes of parameters
+
+### Data parameters
+
+The *Data parameters* collapsible box contains interactive elements that control aspects specific to each panel type.
+
+For plots, that would typically be the choice of variables shown along each axis.
+
+For tables, that would typically be the subset of columns displayed in the panel.
 
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
