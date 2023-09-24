@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "iSEETheBook",
     "section": "",
-    "text": "Preface\nThis book compiles essential knowledge about iSEE, an R package released through the Bioconductor project.\nThis book covers essential knowledge for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\nSee Rue-Albrecht et al. (2018) for the original publication.\n\n\n\n\nRue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L. Lun. 2018. “ISEE: Interactive Summarizedexperiment Explorer.” F1000Research 7: 741. https://doi.org/10.12688/f1000research.14966.1."
+    "text": "Preface\nThis book compiles essential knowledge about iSEE, an R package released through the Bioconductor project.\nThis book caters for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\nSee Rue-Albrecht et al. (2018) for the original publication.\n\n\n\n\nRue-Albrecht, Kevin, Federico Marini, Charlotte Soneson, and Aaron T. L. Lun. 2018. “ISEE: Interactive Summarizedexperiment Explorer.” F1000Research 7: 741. https://doi.org/10.12688/f1000research.14966.1."
   },
   {
     "objectID": "intro.html",
