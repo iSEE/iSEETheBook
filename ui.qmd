@@ -56,7 +56,7 @@ Horizontal scrolling is not possible in *Shiny* apps.
 
 There is no limit to the number of panels that may be added to the *iSEE* user interface.
 
-Meanwhile, no more than 12 panels may be displayed on a single row -- one panel per unit in the 12-unit layout of pages produced by the *shiny* package -- with rows being filled from left to right and panels exceeding the 12-unit layout being naturally pushed to new rows.
+Meanwhile, no more than twelve panels may be displayed on a single row -- one panel per unit in the 12-unit layout of pages produced by the *shiny* package -- with rows being filled from left to right and panels exceeding the 12-unit layout being naturally pushed to new rows.
 
 ### Collabsible boxes
 
