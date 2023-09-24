@@ -50,7 +50,13 @@ Once the panels are loaded into the interface, users are free to interact with t
 
 Use the mouse wheel, trackpad, or directional arrows (up and down), to scroll up and down the interface, to bring panels into view.
 
+Horizontal scrolling is not possible in *Shiny* apps.
+
 ![Scrolling up and down the app interface.](figures/action-scroll.gif){#fig-scrolling}
+
+There is no limit to the number of panels that may be added to the *iSEE* user interface.
+
+Meanwhile, no more than 12 panels may be displayed on a single row -- one panel per unit in the 12-unit layout of pages produced by the *shiny* package -- with rows being filled from left to right and panels exceeding the 12-unit layout being naturally pushed to new rows.
 
 ### Collabsible boxes
 
