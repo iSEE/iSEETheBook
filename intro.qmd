@@ -6,7 +6,7 @@
 
 Initiated in 2017 with single-cell RNA-sequencing in mind, [*iSEE*][bioc-isee] was designed in such a way that it naturally handles any biological assay that can be stored in a rectangular matrix of features (in rows) and samples (in columns).
 
-What makes [*iSEE*][bioc-isee] stand out from other interactive web-application is its focus on the *SummarizedExperiment* class (@fig-SummarizedExperiment), a data structure is widely used throughout the Bioconductor project, from bulk to single-cell experiments.
+What makes [*iSEE*][bioc-isee] stand out from other interactive web-application is its focus on the *SummarizedExperiment* class (@fig-SummarizedExperiment), a data structure that is widely used throughout the Bioconductor project, from bulk to single-cell experiments.
 
 ![Schematic representation of the SummarizedExperiment class (reproduced from the vignette of the [*SummarizedExperiment*][bioc-summarizedexperiment] package).](figures/SummarizedExperiment.svg){#fig-SummarizedExperiment}
 
