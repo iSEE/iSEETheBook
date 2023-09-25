@@ -2,23 +2,23 @@
 
 ## Overview
 
-In this chapter, we describe the contents and layout of a standard *iSEE* app.
+In this chapter, we describe the contents and layout of a standard [*iSEE*][bioc-isee] app.
 
 Specifically, we focus on the appearance of the interactive point-and-click interface presented to end-users who come to simply explore the data set without any programming knowledge required.
 
-Illustrative screenshots are taken from the *iSEE* app produced by the example code given in the help page of the `iSEE()` function,
+Illustrative screenshots are taken from the [*iSEE*][bioc-isee] app produced by the example code given in the help page of the `iSEE()` function,
 which can be access from an *R* console by typing either `help(iSEE)` or `?iSEE`.
 
 ## Panels
 
-Under entirely default settings, data sets loaded into the *iSEE* app are automatically parsed for standard information stored in *SummarizedExperiment* objects.
+Under entirely default settings, data sets loaded into the [*iSEE*][bioc-isee] app are automatically parsed for standard information stored in *SummarizedExperiment* objects.
 Based on the information available and a set of eight core panel types designed to display different pieces of information, the `iSEE()` function automatically populates the interface with one panel of each type for which the relevant information is available.
 
 ![First row of panel in the iSEE app interface, for an example data set.](figures/iSEE.png){#fig-iSEE}
 
-The example code given in the help page of the `iSEE()` function produces an *iSEE* app that showcases all eight core panel types:
+The example code given in the help page of the `iSEE()` function produces an [*iSEE*][bioc-isee] app that showcases all eight core panel types:
 
-::: {#fig-elephants layout-ncol=3}
+::: {#fig-core-panel-types layout-ncol=3}
 
 ![Reduced dimension plot](figures/ReducedDimensionPlot.png){#fig-ReducedDimensionPlot}
 
@@ -36,7 +36,7 @@ The example code given in the help page of the `iSEE()` function produces an *iS
 
 ![Complex heatmap plot](figures/ComplexHeatmapPlot.png){#fig-ComplexHeatmapPlotlumnDataPlot}
 
-Core panel types in the [*iSEE*][bioc-isee] package, in their default configuration.
+Main component the eight core panel type in the [*iSEE*][bioc-isee] package, in their default configuration.
 :::
 
 Each core panel type is designed to display a different piece of information stored in the object.
@@ -54,7 +54,7 @@ Horizontal scrolling is not possible in *Shiny* apps.
 
 ![Scrolling up and down the app interface.](figures/action-scroll.gif){#fig-scrolling}
 
-There is no limit to the number of panels that may be added to the *iSEE* user interface.
+There is no limit to the number of panels that may be added to the [*iSEE*][bioc-isee] user interface.
 
 Meanwhile, no more than twelve panels may be displayed on a single row -- one panel per unit in the 12-unit layout of pages produced by the *shiny* package -- with rows being filled from left to right and panels exceeding the 12-unit layout being naturally pushed to new rows.
 

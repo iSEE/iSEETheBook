@@ -5,8 +5,8 @@ This book compiles essential knowledge about [*iSEE*][bioc-isee], an R package r
 This book caters for three main groups of users:
 
 - End users interacting with the graphical user interface in their web browser.
-- Developers of scripted web-applications using iSEE to showcase data sets.
-- Developers of extensions contributing new functionality and packages to the iSEE ecosystem.
+- Developers of scripted web-applications using [*iSEE*][bioc-isee] to showcase data sets.
+- Developers of extensions contributing new functionality and packages to the [*iSEE*][bioc-isee] ecosystem.
 
 See @isee_2018 for the original publication.
 

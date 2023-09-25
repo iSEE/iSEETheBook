@@ -1,16 +1,17 @@
 # Introduction
 
-*iSEE* is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays (@fig-iSEE).
+[*iSEE*][bioc-isee] is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays (@fig-iSEE).
 
-![The iSEE app interface.](figures/iSEE.png){#fig-iSEE}
+![The iSEE app interface, for an example data set.](figures/iSEE.png){#fig-iSEE}
 
-Initiated in 2017 with single-cell RNA-sequencing in mind, *iSEE* was designed in such a way that it naturally handles any biological assay that can be stored in a rectangular matrix of features (in rows) and samples (in columns).
+Initiated in 2017 with single-cell RNA-sequencing in mind, [*iSEE*][bioc-isee] was designed in such a way that it naturally handles any biological assay that can be stored in a rectangular matrix of features (in rows) and samples (in columns).
 
-What makes *iSEE* stand out from other interactive web-application is its focus on the *SummarizedExperiment* class (@fig-SummarizedExperiment), a data structure is widely used throughout the Bioconductor project, from bulk to single-cell experiments.
+What makes [*iSEE*][bioc-isee] stand out from other interactive web-application is its focus on the *SummarizedExperiment* class (@fig-SummarizedExperiment), a data structure is widely used throughout the Bioconductor project, from bulk to single-cell experiments.
 
 ![Schematic representation of the SummarizedExperiment class (reproduced from the vignette of the [*SummarizedExperiment*][bioc-summarizedexperiment] package).](figures/SummarizedExperiment.svg){#fig-SummarizedExperiment}
 
-The well-defined and stable *SummarizedExperiment* data structure makes it easy for *iSEE* to automatically detect information commonly stored in dedicated components of *SummarizedExperiment* objects and display that information in a range of interactive panels, including tables and plots.
+The well-defined and stable *SummarizedExperiment* data structure makes it easy for [*iSEE*][bioc-isee] to automatically detect information commonly stored in dedicated components of *SummarizedExperiment* objects and display that information in a range of interactive panels, including tables and plots.
 
 
+[bioc-isee]: https://bioconductor.org/packages/iSEE/
 [bioc-summarizedexperiment]: https://bioconductor.org/packages/SummarizedExperiment/
