@@ -1,0 +1,9 @@
+/*-- scss:defaults --*/
+$a-color: #1a81c2 !default;
+
+/*-- scss:rules --*/
+
+a {
+    color: $a-color;
+    text-decoration: none;
+}
