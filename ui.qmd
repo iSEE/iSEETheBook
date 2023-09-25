@@ -92,7 +92,7 @@ For tables, that is typically the subset of columns *hidden* in the panel.
 
 The *Visual parameters* collapsible box contains interactive elements that control the appearance of data points and non-data elements of panels that produce a plot.
 
-That is typically, the color, shape, size, and opacity of data points.
+That is typically the color, shape, size, and opacity of data points.
 It may also include the possibility of faceting the plot by discrete variables along each axis,
 and further customisation of non-data elements of the plot such as axis labels and the plot legend.
 
