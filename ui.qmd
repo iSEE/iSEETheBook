@@ -98,6 +98,15 @@ and further customisation of non-data elements of the plot such as axis labels a
 
 ![The *Visual parameters* box of the *Reduced dimension plot* panel, expanded and configured to reveal the 'Color', 'Shape', 'Size', and 'Facet' sections of its contents.](figures/visual-parameters-reduced-dimension-plot.png){#fig-visual-param-box-reddimplot width=400}
 
+### Selection parameters
+
+The *Selection parameters* collapsible box contains interactive elements that control the transmission and usage of selections in each panel.
+
+That is typically the name of another panel to receive a selection from and whether to restrict data points in the current panel to those selected in the other panel
+It may also include the possibility of saving and deleting saved selections made in the current panel.
+
+![The *Selection parameters* box of the *Reduced dimension plot* panel, expanded to reveal its contents.](figures/selection-parameters-reduced-dimension-plot.png){#fig-selection-param-box-reddimplot width=400}
+
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
 [cran-shiny]: https://cran.r-project.org/web/packages/shiny/index.html
 [posit-shiny]: https://shiny.posit.co/
