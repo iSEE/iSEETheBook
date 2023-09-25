@@ -16,7 +16,9 @@ Based on the information available and a set of eight core panel types designed 
 
 ![First row of panel in the iSEE app interface, for an example data set.](figures/iSEE.png){#fig-iSEE}
 
-The example code given in the help page of the `iSEE()` function produces an [*iSEE*][bioc-isee] app that showcases all eight core panel types:
+The example code given in the help page of the `iSEE()` function produces an [*iSEE*][bioc-isee] app that showcases all eight core panel types.
+For simplicity, [@fig-core-panel-types] displays only the main component of each of those eight core panel types, for an example data set.
+Additional components accompanying each panel and the purpose of each panel will be discussed in a separate chapter.
 
 ::: {#fig-core-panel-types layout-ncol=3}
 
@@ -39,9 +41,6 @@ The example code given in the help page of the `iSEE()` function produces an [*i
 Main component the eight core panel type in the [*iSEE*][bioc-isee] package, in their default configuration.
 :::
 
-Each core panel type is designed to display a different piece of information stored in the object.
-The purpose of each panel will be discussed in a separate chapter.
-
 ## Actions
 
 Once the panels are loaded into the interface, users are free to interact with the interface in any way they see fit.
@@ -50,13 +49,13 @@ Once the panels are loaded into the interface, users are free to interact with t
 
 Use the mouse wheel, trackpad, or directional arrows (up and down), to scroll up and down the interface, to bring panels into view.
 
-Horizontal scrolling is not possible in *Shiny* apps.
+Horizontal scrolling is not possible in [*Shiny*][posit-shiny] apps.
 
 ![Scrolling up and down the app interface.](figures/action-scroll.gif){#fig-scrolling}
 
 There is no limit to the number of panels that may be added to the [*iSEE*][bioc-isee] user interface.
 
-Meanwhile, no more than twelve panels may be displayed on a single row -- one panel per unit in the 12-unit layout of pages produced by the *shiny* package -- with rows being filled from left to right and panels exceeding the 12-unit layout being naturally pushed to new rows.
+Meanwhile, no more than twelve panels may be displayed on a single row -- one panel per unit in the 12-unit layout of pages produced by the [*shiny*][cran-shiny] package -- with rows being filled from left to right and panels exceeding the 12-unit layout being placed on new rows.
 
 ### Collabsible boxes
 
@@ -100,3 +99,5 @@ and further customisation of non-data elements of the plot such as axis labels a
 ![The *Visual parameters* box of the *Reduced dimension plot* panel, expanded and configured to reveal the 'Color', 'Shape', 'Size', and 'Facet' sections of its contents.](figures/visual-parameters-reduced-dimension-plot.png){#fig-visual-param-box-reddimplot width=400}
 
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
+[cran-shiny]: https://cran.r-project.org/web/packages/shiny/index.html
+[posit-shiny]: https://shiny.posit.co/
