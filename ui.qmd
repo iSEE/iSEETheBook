@@ -57,6 +57,8 @@ There is no limit to the number of panels that may be added to the [*iSEE*][bioc
 
 Meanwhile, no more than twelve panels may be displayed on a single row -- one panel per unit in the 12-unit layout of pages produced by the [*shiny*][cran-shiny] package -- with rows being filled from left to right and panels exceeding the 12-unit layout being placed on new rows.
 
+The 12-unit grid system used by [*shiny*][cran-shiny] is described in the [Shiny Application layout guide][posit-layout-guide].
+
 ### Collabsible boxes
 
 Click on the header of collapsible boxes located under the panel output, to reveal interactive elements controlling various aspects of the contents displayed in each panel.
@@ -110,3 +112,4 @@ It may also include the possibility of saving and deleting saved selections made
 [bioc-isee]: https://bioconductor.org/packages/iSEE/
 [cran-shiny]: https://cran.r-project.org/web/packages/shiny/index.html
 [posit-shiny]: https://shiny.posit.co/
+[posit-layout-guide]: https://shiny.posit.co/r/articles/build/layout-guide/
