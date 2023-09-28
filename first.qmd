@@ -21,7 +21,7 @@ iSEE(se)
 ```
 
 ::: {.callout-warning}
-In the code chunk above, `SummarizedExperiment(...)` is pseudo-code that *represents* the creation of [*SummarizedExperiment*][bioc-summarizedexperiment]; do not run that code!
+In the code chunk above, `SummarizedExperiment(...)` is pseudo-code that *represents* the creation of a [*SummarizedExperiment*][bioc-summarizedexperiment] object; do not run that code!
 In practice, you will produce those objects through your own scripts and workflows.
 :::
 
