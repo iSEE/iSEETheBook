@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-This book compiles essential knowledge about [*iSEE*][bioc-isee], an R package released through the Bioconductor project.
+This book compiles essential knowledge about [*iSEE*][bioc-isee], an *R* package released through the Bioconductor project.
 
 This book caters for three main groups of users:
 

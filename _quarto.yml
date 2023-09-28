@@ -9,6 +9,7 @@ book:
     - index.qmd
     - intro.qmd
     - ui.qmd
+    - first.qmd
     - references.qmd
 
 bibliography: references.bib

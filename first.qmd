@@ -1,0 +1,29 @@
+# First use
+
+## Quick start
+
+The [*iSEE*][bioc-isee] package is built around the `iSEE()` function.
+
+In the simplest case, given nothing more than a [*SummarizedExperiment*][bioc-summarizedexperiment] object, the `iSEE()` function automatically scans the object for information stored in standard components and returns a shiny app object.
+If the shiny app object is not assigned to an object name, the app is immediately launched in a new window.
+
+The code chunk below illustrate *conceptually* how:
+
+- Packages are attached to the *R* session.
+- A [*SummarizedExperiment*][bioc-summarizedexperiment] object is produced.
+- A [*SummarizedExperiment*][bioc-summarizedexperiment] object is given to the `iSEE()` function.
+
+```r
+library(SummarizedExperiment)
+library(iSEE)
+se <- SummarizedExperiment(...)
+iSEE(se)
+```
+
+::: {.callout-warning}
+In the code chunk above, `SummarizedExperiment(...)` is pseudo-code that *represents* the creation of [*SummarizedExperiment*][bioc-summarizedexperiment]; do not run that code!
+In practice, you will produce those objects through your own scripts and workflows.
+:::
+
+[bioc-isee]: https://bioconductor.org/packages/iSEE/
+[bioc-summarizedexperiment]: https://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html
