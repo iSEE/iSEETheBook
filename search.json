@@ -49,6 +49,20 @@
     "text": "3.1 Quick start\nThe iSEE package is built around the iSEE() function.\nIn the simplest case, given nothing more than a SummarizedExperiment object, the iSEE() function automatically scans the object for information stored in standard components and returns a shiny app object. If the shiny app object is not assigned to an object name, the app is immediately launched in a new window.\nThe code chunk below illustrate conceptually how:\n\nPackages are attached to the R session.\nA SummarizedExperiment object is produced.\nA SummarizedExperiment object is given to the iSEE() function.\n\nlibrary(SummarizedExperiment)\nlibrary(iSEE)\nse &lt;- SummarizedExperiment(...)\niSEE(se)\n\n\n\n\n\n\nWarning\n\n\n\nIn the code chunk above, SummarizedExperiment(...) is pseudo-code that represents the creation of a SummarizedExperiment object; do not run that code! In practice, you will produce those objects through your own scripts and workflows."
   },
   {
+    "objectID": "contributing.html#github",
+    "href": "contributing.html#github",
+    "title": "Contributing",
+    "section": "GitHub",
+    "text": "GitHub\nThe sources files for this book are stored and publicly accessible in the GitHub repository https://github.com/iSEE/iSEETheBook/.\nContributions are welcome via a number of methods.\n\nPull requests\nContributors are welcome to fork the GitHub repository of the book, make edits to the book on their fork, and open pull requests at https://github.com/iSEE/iSEETheBook/pulls.\n\n\n\n\n\n\nNote\n\n\n\n\nPull requests will be reviewed at the earliest opportunity.\nEdits may be requested before the pull request is merged.\n\n\n\nEach page of the book includes a link (under the table of contents, on the right) to the source file for that page. The link opens the source file in a text editor on the GitHub website, which contributors can use to propose edits and open a pull request, without the need to fork the repository.\n\n\n\n\n\n\nNote\n\n\n\nThe text editor on the GitHub website only edits one file at a time. We recommend this method only for small edits limited to individual pages (e.g., typographical errors).\n\n\n\n\nIssues\nContributions are also welcome in the form of GitHub issues at https://github.com/iSEE/iSEETheBook/issues.\nIssues may refer to anything from typographical errors to requests for additional information in the form of chapters or sections."
+  },
+  {
+    "objectID": "authors.html",
+    "href": "authors.html",
+    "title": "Authors",
+    "section": "",
+    "text": "Kevin Rue-Albrecht (GitHub)"
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",

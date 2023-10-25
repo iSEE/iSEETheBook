@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>iSEETheBook - 1&nbsp; Introduction</title>
+<title>iSEETheBook - Authors</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./ui.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./contributing.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./authors.html">Authors</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./authors.html" class="sidebar-item-text sidebar-link">
+  <a href="./authors.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Authors</span></a>
   </div>
 </li>
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title">Authors</h1>
 </div>
 
 
@@ -172,22 +172,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><a href="https://bioconductor.org/packages/iSEE/"><em>iSEE</em></a> is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays (<a href="ui.html#fig-iSEE">Figure&nbsp;<span>2.1</span></a>).</p>
-<div id="fig-iSEE" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figures/iSEE.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure&nbsp;1.1: The iSEE app interface, for an example data set.</figcaption>
-</figure>
-</div>
-<p>Initiated in 2017 with single-cell RNA-sequencing in mind, <a href="https://bioconductor.org/packages/iSEE/"><em>iSEE</em></a> was designed in such a way that it naturally handles any biological assay that can be stored in a rectangular matrix of features (in rows) and samples (in columns).</p>
-<p>What makes <a href="https://bioconductor.org/packages/iSEE/"><em>iSEE</em></a> stand out from other interactive web-application is its focus on the <em>SummarizedExperiment</em> class (<a href="#fig-SummarizedExperiment">Figure&nbsp;<span>1.2</span></a>), a data structure that is widely used throughout the Bioconductor project, from bulk to single-cell experiments.</p>
-<div id="fig-SummarizedExperiment" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figures/SummarizedExperiment.svg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure&nbsp;1.2: Schematic representation of the SummarizedExperiment class (reproduced from the vignette of the <a href="https://bioconductor.org/packages/SummarizedExperiment/"><em>SummarizedExperiment</em></a> package).</figcaption>
-</figure>
-</div>
-<p>The well-defined and stable <em>SummarizedExperiment</em> data structure makes it easy for <a href="https://bioconductor.org/packages/iSEE/"><em>iSEE</em></a> to automatically detect information commonly stored in dedicated components of <em>SummarizedExperiment</em> objects and display that information in a range of interactive panels, including tables and plots.</p>
+<ul>
+<li>Kevin Rue-Albrecht (<a href="https://github.com/kevinrue">GitHub</a>)</li>
+</ul>
 
 
 
@@ -443,13 +430,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      <a href="./contributing.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Contributing</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ui.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The user interface</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -457,4 +444,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/iSEE/iSEETheBook/edit/main/intro.qmd" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/iSEE/iSEETheBook/edit/main/authors.qmd" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>
