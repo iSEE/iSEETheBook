@@ -1,0 +1,30 @@
+# Contributing {.unnumbered}
+
+## GitHub
+
+The sources files for this book are stored and publicly accessible in the GitHub repository <https://github.com/iSEE/iSEETheBook/>.
+
+Contributions are welcome via a number of methods.
+
+### Pull requests
+
+Contributors are welcome to fork the GitHub repository of the book, make edits to the book on their fork, and open pull requests at <https://github.com/iSEE/iSEETheBook/pulls>.
+
+::: {.callout-note}
+- Pull requests will be reviewed at the earliest opportunity.
+- Edits may be requested before the pull request is merged.
+:::
+
+Each page of the book includes a link (under the table of contents, on the right) to the source file for that page.
+The link opens the source file in a text editor on the GitHub website, which contributors can use to propose edits and open a pull request, without the need to fork the repository.
+
+::: {.callout-note}
+The text editor on the GitHub website only edits one file at a time.
+We recommend this method only for small edits limited to individual pages (e.g., typographical errors).
+:::
+
+### Issues
+
+Contributions are also welcome in the form of GitHub issues at <https://github.com/iSEE/iSEETheBook/issues>.
+
+Issues may refer to anything from typographical errors to requests for additional information in the form of chapters or sections.

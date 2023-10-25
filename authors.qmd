@@ -1,0 +1,3 @@
+# Authors {.unnumbered}
+
+- Kevin Rue-Albrecht ([GitHub](https://github.com/kevinrue))

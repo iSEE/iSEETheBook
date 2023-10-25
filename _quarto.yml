@@ -4,12 +4,17 @@ project:
 book:
   title: "iSEETheBook"
   author: "Kevin Rue-Albrecht"
+  search: true
+  repo-url: https://github.com/iSEE/iSEETheBook/
+  repo-actions: [edit]
   date: "8/23/2023"
   chapters:
     - index.qmd
     - intro.qmd
     - ui.qmd
     - first.qmd
+    - contributing.qmd
+    - authors.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -19,6 +24,8 @@ format:
     theme:
       - cosmo
       - theme.scss
+    link-external-icon: true
+    link-external-newwindow: true
 #  pdf:
 #    documentclass: scrreprt
 
