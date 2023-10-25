@@ -4,6 +4,9 @@ project:
 book:
   title: "iSEETheBook"
   author: "Kevin Rue-Albrecht"
+  search: true
+  repo-url: https://github.com/iSEE/iSEETheBook/
+  repo-actions: [edit]
   date: "8/23/2023"
   chapters:
     - index.qmd
